@@ -26,8 +26,8 @@ publishing {
     publications {
         create<MavenPublication>("maven") {
             groupId = "com.danielgergely.kgl"
-            artifactId = "kgl-logl"
-            version = currentVersion
+            artifactId = "kgl-jogl"
+            version = project.version.toString()
 
             from(components["java"])
         }

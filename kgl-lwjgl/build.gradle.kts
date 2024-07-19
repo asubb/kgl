@@ -33,7 +33,7 @@ publishing {
         create<MavenPublication>("maven") {
             groupId = "com.danielgergely.kgl"
             artifactId = "kgl-lwjgl"
-            version = currentVersion
+            version = project.version.toString()
 
             from(components["java"])
         }

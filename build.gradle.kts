@@ -12,7 +12,7 @@ buildscript {
 }
 
 val versionInfo = versionInfo()
-println("Version:${versionInfo.versionName}, Type:${versionInfo.type}")
+//println("Version:${versionInfo.versionName}, Type:${versionInfo.type}")
 
 allprojects {
     repositories {

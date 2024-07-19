@@ -8,7 +8,7 @@ import java.util.*
 
 typealias GL = GL3ES3
 
-class KglJogl(private val gl: GL) : Kgl {
+class KglJogl(val gl: GL) : Kgl { // TODO gl should be private
 
     override fun createShader(type: Int): Shader? {
         val shader = gl.glCreateShader(type)
